@@ -5,16 +5,34 @@
 ## Quick Install
 
 ```bash
-git clone https://github.com/mabwfas/my-claude-skills.git ~/.claude/skills/my-claude-skills
+git clone https://github.com/mabwfas/my-claude-skills-public.git ~/.claude/skills/my-claude-skills
 ```
 
-Or install globally:
+Or install globally with **automatic double verification**:
 
 ```bash
-git clone https://github.com/mabwfas/my-claude-skills.git
-cd my-claude-skills
+git clone https://github.com/mabwfas/my-claude-skills-public.git
+cd my-claude-skills-public
 bash install.sh
 ```
+
+The installer runs verification **twice** to ensure all 2,449+ skills are properly installed.
+
+## Verify Installation
+
+Run anytime to check everything works:
+
+```bash
+bash verify.sh              # verify source repo
+bash verify.sh --installed   # verify installed skills
+```
+
+**5-point verification checks:**
+1. All 14 skill directories exist
+2. SKILL.md file counts match expected minimums
+3. 18 critical skills are present (PDF, DOCX, TDD, debugging, etc.)
+4. No empty or corrupted skill files
+5. Claude Code integration is configured
 
 ## MCP Server Setup
 
@@ -61,7 +79,7 @@ Sets up 6 MCP servers: Gemini, Stitch, Magic (21st.dev), Claude Flow, Ruv Swarm,
 
 ## Sources
 
-All skills are sourced from their respective open-source repositories under their original licenses:
+All skills sourced from their open-source repositories under original licenses:
 
 - [anthropics/skills](https://github.com/anthropics/skills)
 - [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
