@@ -7,7 +7,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 RED='\033[0;31m'; GREEN='\033[0;32m'; CYAN='\033[0;36m'; NC='\033[0m'; BOLD='\033[1m'
 
 echo -e "${BOLD}${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "${BOLD}${CYAN}  Installing 2,449+ Claude Skills${NC}"
+echo -e "${BOLD}${CYAN}  Installing 2,590+ Claude Skills${NC}"
 echo -e "${BOLD}${CYAN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 
@@ -23,6 +23,7 @@ echo ""
 echo "  Included: Anthropic(17) Antigravity(1340) Composio(864) Marketing(34)"
 echo "  MiniMax(14) Ruflo(130) Superpowers(14) UI/UX(7) Stitch(7) Vercel(6)"
 echo "  WordPress(14) Supermemory(2) n8n-MCP VoltAgent"
+echo "  Awesome-DESIGN.md(55) Claw-Code(Rust CLI)"
 
 echo ""; echo -e "${BOLD}[3/4] Verification pass 1 of 2...${NC}"; echo ""
 bash "$SCRIPT_DIR/verify.sh" --installed && V1="PASS" || V1="FAIL"

@@ -1,6 +1,6 @@
 # My Claude Skills
 
-**2,449+ agentic skills** consolidated from 14 top skill repositories into one install.
+**2,590+ agentic skills** consolidated from 16 top skill repositories into one install.
 
 ## Quick Install
 
@@ -16,7 +16,7 @@ cd my-claude-skills-public
 bash install.sh
 ```
 
-The installer runs verification **twice** to ensure all 2,449+ skills are properly installed.
+The installer runs verification **twice** to ensure all 2,590+ skills are properly installed.
 
 ## Verify Installation
 
@@ -28,7 +28,7 @@ bash verify.sh --installed   # verify installed skills
 ```
 
 **5-point verification checks:**
-1. All 14 skill directories exist
+1. All 16 skill directories exist
 2. SKILL.md file counts match expected minimums
 3. 18 critical skills are present (PDF, DOCX, TDD, debugging, etc.)
 4. No empty or corrupted skill files
@@ -60,6 +60,8 @@ Sets up 6 MCP servers: Gemini, Stitch, Magic (21st.dev), Claude Flow, Ruv Swarm,
 | Supermemory | 2 | Persistent context across sessions |
 | n8n MCP | - | Workflow automation & triggers |
 | VoltAgent | - | Autonomous multi-step agent tasks |
+| Awesome DESIGN.md | 55 | Brand design systems (Airbnb, Apple, Stripe, etc.) |
+| Claw Code | - | Open-source Rust CLI/runtime for coding agents |
 
 ## Skill Routing
 
@@ -75,6 +77,8 @@ Sets up 6 MCP servers: Gemini, Stitch, Magic (21st.dev), Claude Flow, Ruv Swarm,
 | AI media generation | `minimax` |
 | Deployment, Next.js | `vercel` |
 | WordPress, CMS | `wordpress` |
+| Brand-style UI design | `awesome-design-md` |
+| Rust CLI agent runtime | `claw-code` |
 | Everything else | Check `antigravity` first |
 
 ## Sources
@@ -95,3 +99,5 @@ All skills sourced from their open-source repositories under original licenses:
 - [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory)
 - [czlonkowski/n8n-mcp](https://github.com/czlonkowski/n8n-mcp)
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+- [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)

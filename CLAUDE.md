@@ -54,6 +54,7 @@
 | Spline 3D | `antigravity:spline-3d-integration` |
 | Figma to code | `antigravity:design-spells` + `antigravity:design-orchestration` |
 | Design system | `antigravity:design-md` + `antigravity:baseline-ui` |
+| Awesome DESIGN.md (55 brand styles) | `awesome-design-md` — Copy a DESIGN.md into your project for pixel-perfect brand UI |
 | Dark mode UI | `antigravity:frontend-ui-dark-ts` |
 | Accessibility fixes | `antigravity:fixing-accessibility` + `antigravity:accessibility-compliance-accessibility-audit` |
 | Screen reader testing | `antigravity:screen-reader-testing` + `antigravity:wcag-audit-patterns` |
@@ -734,6 +735,7 @@
 | MCP builder | `anthropic-skills:mcp-builder` + `antigravity:mcp-builder` |
 | Orchestration | `antigravity:antigravity-skill-orchestrator` |
 | Kaizen / improvement | `antigravity:kaizen` |
+| Claw Code (Rust CLI/runtime) | `claw-code` — Open-source Claude Code alternative with Rust runtime |
 
 ---
 
@@ -791,6 +793,14 @@ Sign in at [stitch.withgoogle.com](https://stitch.withgoogle.com) · MCP: `stitc
 ### 🔑 Gemini API
 [aistudio.google.com](https://aistudio.google.com) → create key → `GEMINI_API_KEY` · MCP: `gemini`
 
+### 🎨 Awesome DESIGN.md — 55 Brand Design Systems
+Copy a DESIGN.md into your project for pixel-perfect brand-style UI. 55 brands: Airbnb, Apple, Stripe, Vercel, etc.
+Source: [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md)
+
+### 🦀 Claw Code — Open-Source Claude Code Alternative
+Rust-based CLI/runtime for autonomous coding agents. Maintained by UltraWorkers.
+Source: [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code)
+
 ### ⚡ MCP Servers — `bash setup-mcp.sh`
 Gemini · Stitch · Magic (21st.dev) · Claude Flow · Ruv Swarm · Flow Nexus
 
@@ -811,6 +821,6 @@ Gemini · Stitch · Magic (21st.dev) · Claude Flow · Ruv Swarm · Flow Nexus
 
 ---
 
-*2,588+ skills · 14 collections · One brain.*
+*2,590+ skills · 16 collections · One brain.*
 *Private: https://github.com/mabwfas/my-claude-skills*
 *Public: https://github.com/mabwfas/my-claude-skills-public*
